@@ -1,0 +1,13 @@
+
+{
+  "name": "我的個人網站",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "jQuery",
+    "Ajax",
+    "JSON"
+  ],
+  "message": "這些資料是透過 Ajax 從 JSON 檔案載入的！"
+}

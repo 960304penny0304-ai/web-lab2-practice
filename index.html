@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>我的個人網頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>歡迎來到我的個人網站</h1>
+    <p>My Personal Website</p>
+  </header>
+
+  <nav>
+    <a href="#about">關於我</a>
+    <a href="#skills">我的技能</a>
+    <a href="#ajax-demo">Ajax 示範</a>
+    <a href="#projects">我的作品</a>
+  </nav>
+
+  <main>
+
+    <!-- 個人介紹 -->
+    <section id="about">
+      <h2>關於我</h2>
+
+      <p>大家好！我是一名正在學習網頁設計的學生。</p>
+      <p>目前正在學習 HTML、CSS 和 JavaScript。</p>
+
+      <button id="toggleBtn">顯示更多介紹</button>
+
+      <p id="moreInfo" style="display:none;">
+        我希望透過這次作業學習網頁開發，
+        並建立屬於自己的 GitHub Pages 網站。
+      </p>
+    </section>
+
+    <!-- 技能介紹 -->
+    <section id="skills">
+      <h2>我的技能</h2>
+
+      <ul>
+        <li>HTML5 - 網頁結構</li>
+        <li>CSS3 - 網頁美化</li>
+        <li>JavaScript - 網頁互動</li>
+        <li>jQuery - JavaScript 函式庫</li>
+        <li>JSON - 資料交換格式</li>
+        <li>Ajax - 非同步資料讀取</li>
+      </ul>
+    </section>
+
+    <!-- JSON 與 Ajax 示範 -->
+    <section id="ajax-demo">
+      <h2>JSON 與 Ajax 示範</h2>
+
+      <p>點擊下方按鈕，使用 Ajax 讀取 JSON 資料。</p>
+
+      <button id="loadDataBtn">載入資料</button>
+
+      <div id="jsonResult"></div>
+    </section>
+
+    <!-- 我的作品 -->
+    <section id="projects">
+      <h2>我的作品</h2>
+
+      <p>這是我使用 HTML、CSS、JavaScript、
+         jQuery、JSON 和 Ajax 製作的個人網頁。</p>
+
+      <a href="https://github.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        前往 GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 My Personal Website</p>
+  </footer>
+
+  <!-- 載入 jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- 載入自己的 JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
